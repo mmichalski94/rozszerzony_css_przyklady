@@ -1,0 +1,21 @@
+#p1::before{
+    content: '* przed tekstem ';
+    font-size: 3em;
+    color: red;
+}
+ul{ list-style-type: none}
+
+.list-item::before{
+    content: '* '
+}
+.list-item::after{
+    content: ' *'
+}
+#p2::first-letter {
+    color: red;
+    font-size: 1.5em;
+}
+#p3::first-line {
+    color: green;
+    font-size: 1.5em;
+}

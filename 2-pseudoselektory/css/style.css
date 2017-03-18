@@ -1,0 +1,83 @@
+a {
+    display: block;
+    font-size: 3em;
+}
+
+a#link-1:link {
+    color: red;
+}
+
+a#link-2:visited {
+    color: green;
+}
+
+a#link-3:hover {
+    color: orange;
+    background-color: pink;
+    font-size: 10em;
+    display:
+}
+
+a#link-4:active {
+    color: crimson
+}
+
+a#link-5:focus {
+    color: black;
+}
+
+
+/* zmieniamy kolor aktywnego inputu*/
+
+input:focus {
+    background-color: yellow;
+}
+
+#p1:target {
+    color: fuchsia;
+}
+
+p:lang(en) {
+    font-weight: 800;
+}
+
+p:lang(pl) {
+    font-weight: 200;
+}
+
+
+/* np. cudzysłów w angielski i cudzysłów w polskim */
+
+
+/* selektory elementów potomnych */
+
+.list-item:first-child {
+    background-color: aqua;
+}
+
+.list-item:last-child {
+    background-color: burlywood;
+}
+
+div>p:only-child {
+    color: blue;
+}
+
+
+/* selektory kolejnego dziecka */
+
+.list-item:nth-child(odd) {
+    background-color: pink;
+}
+
+
+/* koloruje nieparzyste znaczniki */
+
+.list-item:nth-child(7) {
+    background-color: red;
+}
+
+.list-item:nth-child(3n+2) {
+    background-color: blue;
+} /
+
