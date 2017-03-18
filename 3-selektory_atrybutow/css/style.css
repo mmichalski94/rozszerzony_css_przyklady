@@ -1,0 +1,27 @@
+a {
+    font-size: 3em;
+    /* 3*domyślna wielkość fontu */
+}
+
+a[title] {
+    color: red;
+}
+
+a[title="Link 5"] {
+    color: orange;
+}
+
+a[title~="Link"]{
+    color: darkorchid;
+}/* działa na linki z atrybutem title o nazwie "Link" jako ciąg znaków oddzielonych spacją */
+
+a[href*=".pl"]{
+    color: yellow;
+}
+a[title^="T"]{
+    color: blueviolet;
+}/* tylko atrybuty zaczynające się od litery T bedą miały taki kolor*/
+
+a[href$=".com"]{
+    color: palegreen;
+}

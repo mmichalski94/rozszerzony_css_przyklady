@@ -1,0 +1,69 @@
+body{
+    text-align: center;
+    /* obrazek jest elementem liniowym */
+}
+.square {
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    position: relative;
+    /*transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.5s;
+    zammiast tego można w jednej linii
+    */
+    /* transition: all 2s ease-in 0.5s */
+    /* albo transition: background-color 2s ease-in 0.5s, width ... ;*/
+    /* jeśli czas zmiany jest mniejszy niż sekunda, to możemy użyć skróconego zapisu np. .5s */
+    /* transition ustalamy przed hoverem */
+}
+
+
+/* .square:hover{
+    background-color: blue;
+    width: 400px;
+} */
+
+img {
+    height: 100px;
+    transition: all .8s
+}
+
+img:hover {
+    height: 200px;
+}
+
+.first {
+    background-color: red;
+    transition: width .6s ease-in;
+    display: block;
+}
+
+.first:hover {
+    width: 300px;
+}
+
+.second {
+    display: block;
+    background-color: blue;
+    transition: height .6s ease-in;
+}
+
+.second:hover {
+    height: 300px;
+}
+
+.third {
+    display: block;
+    background-color: green;
+    transition: all 1s linear 0.4s;
+}
+
+.third:hover {
+    height: 300px;
+    width: 300px;
+    transform: rotate(45deg);
+}

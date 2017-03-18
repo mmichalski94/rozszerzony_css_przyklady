@@ -1,0 +1,18 @@
+img{
+    height: 50px;
+}
+#truskawka-1{
+    float: left;
+}
+#truskawka-2{
+    float: right;
+}
+#truskawka-3{
+    float: none;
+}
+#truskawka-4{
+    float: left;
+}
+p:last-child{
+    clear: left;
+}

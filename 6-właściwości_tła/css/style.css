@@ -1,0 +1,16 @@
+body{
+    background-color: beige;
+    height: 3000px;
+}
+.background{
+    height: 600px;
+   /*  margin: auto; */
+  /*  background-image: url(../img/trus.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed;  efekt paralaksy */
+    /* background-size: cover;  albo contain */
+    background: beige url(../img/trus.jpg) center no-repeat fixed;
+    background-size: cover;
+ }
+/* margin: góra, prawo, dł, lewo;*/
