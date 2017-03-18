@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+    body{
+    margin: 0;
+}
+.col-1-4{
+    width: 25%;
+    float: left;
+    border: 3px solid red;
+    padding: 15px;
+}
+.col-1-4:nth-child(odd){
+    background-color: antiquewhite;
+}
+
+/* v standardowy punkt zmiany dla ekranów */
+@media (min-width:480px) and (max-width: 768px){
+    .col-1-4{
+        width: 50%;
+    }
+}
+@media (max-width:480px){
+    .col-1-4{
+        width: 100%;
+    }
+}
